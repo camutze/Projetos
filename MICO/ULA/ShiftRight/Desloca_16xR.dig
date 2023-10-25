@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Desloca_8xR.dig</elementName>
+      <elementAttributes/>
+      <pos x="900" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1080" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>A</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+      </elementAttributes>
+      <pos x="740" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>sh</string>
+        </entry>
+      </elementAttributes>
+      <pos x="740" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Desloca_8xR.dig</elementName>
+      <elementAttributes/>
+      <pos x="900" y="380"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="960" y="400"/>
+      <p2 x="1080" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="260"/>
+      <p2 x="900" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="420"/>
+      <p2 x="900" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="340"/>
+      <p2 x="1040" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="280"/>
+      <p2 x="1040" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="360"/>
+      <p2 x="820" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="300"/>
+      <p2 x="900" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="380"/>
+      <p2 x="900" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="340"/>
+      <p2 x="880" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="280"/>
+      <p2 x="1040" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="300"/>
+      <p2 x="820" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="360"/>
+      <p2 x="820" y="420"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
