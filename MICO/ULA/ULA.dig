@@ -8,7 +8,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Alpha</string>
+          <string>A</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -26,7 +26,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Beta</string>
+          <string>B</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -44,7 +44,7 @@
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Gamma</string>
+          <string>G</string>
         </entry>
         <entry>
           <string>Bits</string>

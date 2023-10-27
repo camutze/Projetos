@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>SinalEXt.dig</elementName>
+      <elementAttributes/>
+      <pos x="1240" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Registrador32bit.dig</elementName>
+      <elementAttributes/>
+      <pos x="1680" y="-420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Seven-Seg-Hex</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Color</string>
+          <awt-color>
+            <red>153</red>
+            <green>153</green>
+            <blue>255</blue>
+            <alpha>255</alpha>
+          </awt-color>
+        </entry>
+      </elementAttributes>
+      <pos x="1960" y="-700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ROM</elementName>
+      <elementAttributes/>
+      <pos x="1660" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes/>
+      <pos x="1320" y="-360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>ULA.dig</elementName>
+      <elementAttributes/>
+      <pos x="1480" y="-180"/>
+    </visualElement>
+  </visualElements>
+  <wires/>
+  <measurementOrdering/>
+</circuit>
