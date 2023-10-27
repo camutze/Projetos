@@ -6,12 +6,12 @@
     <visualElement>
       <elementName>SinalEXt.dig</elementName>
       <elementAttributes/>
-      <pos x="1240" y="360"/>
+      <pos x="1220" y="-60"/>
     </visualElement>
     <visualElement>
       <elementName>Registrador32bit.dig</elementName>
       <elementAttributes/>
-      <pos x="1680" y="-420"/>
+      <pos x="1340" y="-220"/>
     </visualElement>
     <visualElement>
       <elementName>Seven-Seg-Hex</elementName>
@@ -31,7 +31,7 @@
     <visualElement>
       <elementName>ROM</elementName>
       <elementAttributes/>
-      <pos x="1660" y="-100"/>
+      <pos x="1220" y="40"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
