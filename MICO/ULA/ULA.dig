@@ -396,6 +396,24 @@
       </elementAttributes>
       <pos x="680" y="960"/>
     </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>zero</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>32</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="1140" y="120"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -452,11 +470,15 @@
     </wire>
     <wire>
       <p1 x="1020" y="280"/>
-      <p2 x="1080" y="280"/>
+      <p2 x="1060" y="280"/>
     </wire>
     <wire>
       <p1 x="880" y="280"/>
       <p2 x="980" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="280"/>
+      <p2 x="1080" y="280"/>
     </wire>
     <wire>
       <p1 x="680" y="600"/>
@@ -523,6 +545,10 @@
       <p2 x="720" y="760"/>
     </wire>
     <wire>
+      <p1 x="1060" y="120"/>
+      <p2 x="1140" y="120"/>
+    </wire>
+    <wire>
       <p1 x="240" y="380"/>
       <p2 x="260" y="380"/>
     </wire>
@@ -549,6 +575,10 @@
     <wire>
       <p1 x="900" y="300"/>
       <p2 x="900" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="120"/>
+      <p2 x="1060" y="280"/>
     </wire>
     <wire>
       <p1 x="1000" y="360"/>
