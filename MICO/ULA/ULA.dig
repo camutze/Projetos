@@ -394,10 +394,6 @@
           <string>zero</string>
         </entry>
         <entry>
-          <string>Bits</string>
-          <int>32</int>
-        </entry>
-        <entry>
           <string>intFormat</string>
           <intFormat>dec</intFormat>
         </entry>
