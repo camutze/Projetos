@@ -155,7 +155,7 @@
           <intFormat>decSigned</intFormat>
         </entry>
       </elementAttributes>
-      <pos x="820" y="-420"/>
+      <pos x="1060" y="-420"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -686,12 +686,12 @@
       <p2 x="720" y="-420"/>
     </wire>
     <wire>
-      <p1 x="740" y="-420"/>
-      <p2 x="820" y="-420"/>
-    </wire>
-    <wire>
       <p1 x="-1500" y="-420"/>
       <p2 x="-1180" y="-420"/>
+    </wire>
+    <wire>
+      <p1 x="740" y="-420"/>
+      <p2 x="1060" y="-420"/>
     </wire>
     <wire>
       <p1 x="-200" y="-1060"/>
