@@ -6,6 +6,7 @@
 # next = r3
 # second = r4
 # i = r5
+# r6 = branch
 
 # r0 = 0000
 # r1 = 0001
@@ -17,7 +18,7 @@
 # r7 = 0111
 # r8 = 1000
 # r9 = 1001
-
+    
 nop 
 addi r0 r0 r1 10 #Defina N como o número desejado de termos da sequência Fibonacci
 
@@ -27,17 +28,25 @@ addi r0 r0 r3 0 #Inicializa next
 
 addi r0 r0 r4 1 #Inicializa second
 
-add  r1 r0 r5  #Inicializa i= N 
+    add  r1 r0 r5  #Inicializa i= N 
+
+#para i = N ate i==0 
+#INICIO
+branch r0 r5 halt #Quando for igual a zero ele finaliza
+
+show r1
 
 
-#para i = N ate i==0
+add r2 r4 r3 #next = first + second;
 
-show r2
-add r2 r4 r3
-add r0 r4 r2
-add r0 r3 r4
-subi r0 r0 r5 -1
-branch 
+add r0 r4 r2 # first = second;
+
+add r0 r3 r4 #second = next;
+
+subi r0 r0 r5 -1 # i = i-1;
+
+jump  INICIO #repete
+#HALT
 
 
 
